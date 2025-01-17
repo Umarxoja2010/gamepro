@@ -1,0 +1,91 @@
+.aboutbanner{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.aboutbanner h3{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 25px;
+line-height: 180%;
+color: #fff;
+margin-bottom: 50px;
+}
+.aboutbanner_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.aboutbanner_card{
+    border-radius: 20px;
+
+box-shadow: 0 4px 94px 0 rgba(0, 0, 0, 0.15);
+background: #1c140f;
+padding-top: 64px;
+padding-bottom: 64px;
+padding-left: 37px;
+padding-right: 37px;
+}
+.btn_about1{
+    border-radius: 8px;
+width: 140px;
+height: 39px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+background: rgba(176, 0, 220, 0.11);
+border: none;
+}
+.btn_about2{
+    border-radius: 8px;
+width: 140px;
+height: 39px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+background: rgba(220, 66, 0, 0.11);
+border: none;
+}
+.btn_about3{
+    border-radius: 8px;
+    width: 140px;
+    height: 39px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+    background: rgba(0, 220, 141, 0.11);
+    border: none;
+}
+
+
+.aboutbanner_card h4{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 187%;
+color: #fff;
+margin-top: 19px;
+margin-bottom: 16px;
+display: block;
+}
+.aboutbanner_card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+text-align: center;
+}
+@media (max-width:750px) {
+    .aboutbanner_wrapper{
+        flex-direction: column;
+    }
+    .aboutbanner_card{
+        text-align: center;
+    }
+}

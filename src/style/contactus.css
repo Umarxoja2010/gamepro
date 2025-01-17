@@ -1,0 +1,162 @@
+.contactus{
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+.contactus h2{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 33px;
+line-height: 180%;
+text-align: center;
+color: #fff;
+margin-bottom: 13px;
+}
+.contactus p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+}
+.contenttt_img{
+
+    margin-top: 93px;
+    
+}
+
+.contectus_wrapper{
+    display: flex;
+    align-items: center;
+gap: 50px;
+    background-color: black;
+}
+
+.contectus_wrapper_card1{
+    display: flex;
+    align-items: center;
+gap: 30px;
+
+}
+.contectus_wrapper_card2{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+}
+.contectus_wrapper_card3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.chiz{
+width: 2px;
+height: 120px;
+color: white;
+background-color: white;
+display: block;
+}
+.contectus_wrapper h5{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+ width: 90%;
+}
+.contactus h4{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.contactus img{
+    cursor: pointer;
+
+}
+.contenttt_img{
+    width: 90%;
+}
+
+.hhhh5{
+  width: 166px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1030px) {
+.contectus_wrapper{
+    gap: 20px;
+}
+
+}
+
+@media (max-width:900px) {
+.contectus_wrapper_card1{
+    gap: 20px;
+}
+.contectus_wrapper_card2{
+    gap: 20px;
+}
+.contectus_wrapper_card3{
+    gap: 20px;
+}
+}
+@media (max-width:830px) {
+.contectus_wrapper{
+    gap: 10px;
+}
+.contactus h2{
+    font-size: 28px;
+}
+
+}
+@media (max-width:700px) {
+    .contectus_wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .chiz{
+        display: block;
+        height: 2px;
+        width: 320px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .contectus_wrapper_card3{
+    text-align: center;
+
+    }
+    .loca{
+        margin-left: 20px;
+    }
+    .contactus h2{
+        font-size: 25px;
+    }
+    .contactus p{
+        font-size: 12px;
+    }
+    .contactus h4{
+        font-size: 14px;
+    }
+    .contactus h5{
+        font-size: 13px;
+    }
+    .contactus h6{
+        font-size: 13px;
+    }
+}

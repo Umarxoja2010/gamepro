@@ -1,0 +1,80 @@
+.jang{
+    padding-bottom: 100px;
+    background-image: url("/src/img/backgraund.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jang_top h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 30px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+padding-top: 93px;
+}
+.jang_top p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+margin-top: 25px;
+margin-bottom: 100px;
+}
+.jang_bottom{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 100px;
+}
+.jang_card{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.jang_card span{
+    display: block;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 187%;
+color: #fff;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 21px;
+}
+.jang_bottom_pas{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+
+@media (max-width:800px) {
+    .jang_top h2{
+        font-size: 20px;
+    }
+    .jang_top p{
+        font-size: 14px;
+    }
+    .jang_bottom{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 100px;
+    }
+    .jang_bottom_pas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:550px) {
+    .jang_bottom{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

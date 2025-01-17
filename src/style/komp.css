@@ -1,0 +1,65 @@
+.komp{
+    padding-bottom: 100px;
+    background-color: black;
+}
+.komp h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 30px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+padding-top: 150px;
+margin-bottom: 15px;
+}
+.komp p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+
+}
+.komp_bottom{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.komp_bottom img{
+    margin-left: 3px;
+    width: 100%;
+    height: 80%;
+}
+.komp button{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 187%;
+color: #fff;
+border-radius: 10px;
+width: 139px;
+height: 57px;
+background: rgba(255, 255, 255, 0.11);
+display: block;
+margin: 72px auto 0;
+}
+@media (max-width:800px) {
+.komp_bottom{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media (max-width:600px) {
+.komp p{
+    font-size: 12px;
+}
+.komp h2{
+    font-size: 24px;
+}
+.komp button{
+    font-size: 18px;
+    height: 45px;
+}
+}

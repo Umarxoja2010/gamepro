@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1347px;
+    width: 100%;
+    margin: 0 auto;
+padding: 0 30px;
+}
+li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Rubik", sans-serif;
+  }

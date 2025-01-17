@@ -1,0 +1,70 @@
+.kareyya{
+    padding-bottom: 100px;
+    background: #1c140f;
+}
+.kareyya h2{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 35px;
+line-height: 143%;
+text-align: center;
+color: #fff;
+margin-bottom: 20px;
+padding-top: 80px;
+}
+.kareyya p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+}
+.kareyya_bottom{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+.kareyya_bottom_card{
+    border: 2px solid #dc7000;
+border-radius: 10px;
+width: 400px;
+height: 230px;
+background: #0f0901;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+padding-right: 30px;
+}
+.kareyya_bottom_card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+margin-top: 20px;
+}
+.kareyya_bottom_pas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kareyya_bottom_pas_con2{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+@media (max-width:900px) {
+    .kareyya_bottom{
+        gap: 20px;
+    }
+}
+@media (max-width:850px) {
+.kareyya_bottom{
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+}
+
+}

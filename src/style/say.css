@@ -1,0 +1,172 @@
+.say{
+    padding-bottom: 100px;
+    background: #1c140f;
+}
+.say h3{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+line-height: 189%;
+color: #fff;
+text-align: center;
+padding-top: 53px;
+}
+.say p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 13px;
+line-height: 189%;
+text-align: center;
+color: #fff;
+margin-top: 12px;
+}
+.say_bottom{
+    margin-top: 59px;
+    margin-bottom: 71px;
+
+}
+.say_bottom h5{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 175%;
+letter-spacing: -0.02em;
+color: #4f4f4f;
+margin-bottom: 7px;
+}
+.say_bottom_top input{
+    border: 0.60px solid #cecece;
+border-radius: 9px;
+width: 322px;
+height: 56px;
+background: rgba(255, 255, 255, 0.07);
+}
+.say_bottom_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 27px;
+}
+.say_bottom_top_orta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.say_bottom_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.say_bottom_top_orta input{
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 671px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.07);
+
+}
+.say_bottom_bottom input{
+    border: 0.60px solid #cecece;
+border-radius: 9px;
+width: 671px;
+height: 232px;
+background: rgba(255, 255, 255, 0.07);
+}
+.say button{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 204%;
+color: #fff;
+background: #dc7000;
+border-radius: 10px;
+width: 193px;
+height: 57px;
+margin-top: 50px;
+border: none;
+cursor: pointer;
+margin-left: 760px;
+
+}
+@media (max-width:980px) {
+    .say button{
+        margin-left: 650px;
+    }
+}
+@media (max-width:872px) {
+    .say button{
+        margin-left: 550px;
+    }
+}
+@media (max-width:780px) {
+    .say button{
+        margin-left: 450px;
+    }
+}
+@media (max-width:674px) {
+    .say button{
+        margin-left: 350px;
+    }
+}
+@media (max-width:575px) {
+    .say button{
+        margin-left: 250px;
+    }
+}
+@media (max-width:479px) {
+    .say button{
+        margin-left: 200px;
+    }
+    .say button{
+        width: 123px;
+    }
+}
+@media (max-width:400px) {
+    .say button{
+        margin-left: 150px;
+    }
+}
+ @media (max-width:325px) {
+    .say button{
+        margin-left: 100px;
+    }
+}
+@media (max-width:800px) {
+    .say_bottom_top_orta input{
+        width: 100%;
+    }
+    .say_bottom_bottom input{
+        width: 100%;
+    }
+
+}
+@media (max-width:700px) {
+    .say_bottom_top input{
+        width: 300px;
+    }
+}
+@media (max-width:650px) {
+    .say_bottom_top input{
+        width: 250px;
+    }
+}
+@media (max-width:530px) {
+    .say_bottom_top input{
+        width: 200px;
+    }
+
+}
+@media (max-width:450px) {
+    .say_bottom_top input{
+        width: 150px;
+    }
+}
+@media (max-width:330px) {
+    .say_bottom_top input{
+        width: 100px;
+    }
+}
