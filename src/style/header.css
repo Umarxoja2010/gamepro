@@ -70,7 +70,11 @@ cursor: pointer;
     border: none;
     cursor: pointer;
 }
+.modal li{
+    
+}
 .modal{
+    
 display: flex;
 align-items: center;
 justify-content: center;
